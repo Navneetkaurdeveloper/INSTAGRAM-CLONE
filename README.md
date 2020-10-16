@@ -1,5 +1,14 @@
 Instagram clone using Reactjs , firebase and semantic ui
 
+
+Description : This is an Instagram Clone App , in which I had deployed an app with Firebase Hosting , Email Authentication is done, we can sign up , sign in , upload Images and can comment. It have Realtime database with Firebase firestore 
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
