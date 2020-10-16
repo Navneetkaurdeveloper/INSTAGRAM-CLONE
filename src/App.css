@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+}
+.app {
+  background-color: #d8d9e9;
+  font-family: "Piazzolla", serif;
+}
+.app-header {
+  background-color: rgba(229, 230, 241, 0.8);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid lightgrey;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.header-logo {
+  object-fit: contain;
+}
+
+.alt-div {
+  position: fixed;
+  bottom: 0px;
+  z-index: 5;
+  display: flex;
+  background-color: rgba(51, 51, 51, 0.5);
+  width: 100%;
+}
+.upload-alt {
+  padding: 5px;
+  margin: auto;
+}
+
+.posts-div {
+  padding: 10px;
+  margin: auto;
+}
+
+.app-sidebar {
+  max-width: 293px;
+  background-color: white;
+  padding: 15px;
+  font-size: large;
+  width: 100%;
+  margin: auto;
+  align-items: stretch;
+  border: 1px solid rgba(51, 51, 51, 0.2);
+  border-radius: 3px;
+
+  -webkit-box-shadow: 0px 4px 8px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 4px 8px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 4px 8px 1px rgba(0, 0, 0, 0.75);
+  height: 90vh;
+}

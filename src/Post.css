@@ -1,0 +1,63 @@
+
+.post{
+    max-width:700px;
+    background-color: white;
+    margin: 25px auto;
+    width: 100%;
+    font-family: 'Piazzolla', serif;
+    -webkit-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.75);
+box-shadow: 0px 6px 8px 3px rgba(0,0,0,0.75);
+}
+
+.post-image{
+    width: 100%;
+    object-fit: contain;
+}
+.post-actions{
+    padding-top: 20px;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.post-actions Icon{
+    padding-right: 20px;
+}
+.comment-author{
+    margin-right: 10px;
+    font-size: large;
+    
+}
+
+.comment-input-form{
+display: flex;
+margin-bottom: 10px;
+}
+.comment-input-field{
+    width: 50%;
+  flex:1;
+}
+.comment-button-field{
+    flex:0;
+}
+.comment-input{
+    border:none !important;
+    border-bottom: 1px solid grey !important;
+}
+.comment-time{
+    position: absolute;
+    right: 7px;
+    color: grey;
+    font-size: x-small;
+}
+
+.post-username{
+    font-weight: 700;
+    font-size: 20px;
+    padding-right: 5px;
+   
+}
+.post-caption{
+    font-size: large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
